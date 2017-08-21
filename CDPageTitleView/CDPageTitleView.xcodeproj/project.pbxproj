@@ -13,8 +13,10 @@
 		06458CE61F2F8A8A00A0812C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06458CE41F2F8A8A00A0812C /* Main.storyboard */; };
 		06458CE81F2F8A8A00A0812C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06458CE71F2F8A8A00A0812C /* Assets.xcassets */; };
 		06458CEB1F2F8A8A00A0812C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06458CE91F2F8A8A00A0812C /* LaunchScreen.storyboard */; };
-		06458CF51F2F8B1600A0812C /* UIView+CDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 06458CF41F2F8B1600A0812C /* UIView+CDAdd.m */; };
-		06458CF81F2F8B5E00A0812C /* CDPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06458CF71F2F8B5E00A0812C /* CDPageView.m */; };
+		06458CF81F2F8B5E00A0812C /* MCPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06458CF71F2F8B5E00A0812C /* MCPageView.m */; };
+		06D31AEF2F7EAF47CD0B405E /* libPods-CDPageTitleView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D5A699061430C5E93BEDD8 /* libPods-CDPageTitleView.a */; };
+		D3E9E95A1F4693E000358EDE /* MCSegmentViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E9E9591F4693E000358EDE /* MCSegmentViewVC.m */; };
+		D3E9E9601F46D7C700358EDE /* MCSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E9E95F1F46D7C700358EDE /* MCSegmentView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +30,15 @@
 		06458CE71F2F8A8A00A0812C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06458CEA1F2F8A8A00A0812C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06458CEC1F2F8A8A00A0812C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		06458CF31F2F8B1600A0812C /* UIView+CDAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CDAdd.h"; sourceTree = "<group>"; };
-		06458CF41F2F8B1600A0812C /* UIView+CDAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CDAdd.m"; sourceTree = "<group>"; };
-		06458CF61F2F8B5E00A0812C /* CDPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDPageView.h; sourceTree = "<group>"; };
-		06458CF71F2F8B5E00A0812C /* CDPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDPageView.m; sourceTree = "<group>"; };
+		06458CF61F2F8B5E00A0812C /* MCPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPageView.h; sourceTree = "<group>"; };
+		06458CF71F2F8B5E00A0812C /* MCPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPageView.m; sourceTree = "<group>"; };
+		1E5D8D1DC112C99BBDD58B84 /* Pods-CDPageTitleView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDPageTitleView.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDPageTitleView/Pods-CDPageTitleView.release.xcconfig"; sourceTree = "<group>"; };
+		43D5A699061430C5E93BEDD8 /* libPods-CDPageTitleView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CDPageTitleView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D6C40024F7F7EF2A10BA88 /* Pods-CDPageTitleView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDPageTitleView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CDPageTitleView/Pods-CDPageTitleView.debug.xcconfig"; sourceTree = "<group>"; };
+		D3E9E9581F4693E000358EDE /* MCSegmentViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSegmentViewVC.h; sourceTree = "<group>"; };
+		D3E9E9591F4693E000358EDE /* MCSegmentViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSegmentViewVC.m; sourceTree = "<group>"; };
+		D3E9E95E1F46D7C700358EDE /* MCSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSegmentView.h; sourceTree = "<group>"; };
+		D3E9E95F1F46D7C700358EDE /* MCSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSegmentView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06D31AEF2F7EAF47CD0B405E /* libPods-CDPageTitleView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +58,8 @@
 			children = (
 				06458CDA1F2F8A8A00A0812C /* CDPageTitleView */,
 				06458CD91F2F8A8A00A0812C /* Products */,
+				91F3EA6E1979EEA71AB9428B /* Pods */,
+				E3E8E2F406835E465CA6295F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +79,8 @@
 				06458CDF1F2F8A8A00A0812C /* AppDelegate.m */,
 				06458CE11F2F8A8A00A0812C /* ViewController.h */,
 				06458CE21F2F8A8A00A0812C /* ViewController.m */,
+				D3E9E9581F4693E000358EDE /* MCSegmentViewVC.h */,
+				D3E9E9591F4693E000358EDE /* MCSegmentViewVC.m */,
 				06458CE41F2F8A8A00A0812C /* Main.storyboard */,
 				06458CE71F2F8A8A00A0812C /* Assets.xcassets */,
 				06458CE91F2F8A8A00A0812C /* LaunchScreen.storyboard */,
@@ -89,12 +101,29 @@
 		06458CF21F2F8AB200A0812C /* TitleView */ = {
 			isa = PBXGroup;
 			children = (
-				06458CF31F2F8B1600A0812C /* UIView+CDAdd.h */,
-				06458CF41F2F8B1600A0812C /* UIView+CDAdd.m */,
-				06458CF61F2F8B5E00A0812C /* CDPageView.h */,
-				06458CF71F2F8B5E00A0812C /* CDPageView.m */,
+				06458CF61F2F8B5E00A0812C /* MCPageView.h */,
+				06458CF71F2F8B5E00A0812C /* MCPageView.m */,
+				D3E9E95E1F46D7C700358EDE /* MCSegmentView.h */,
+				D3E9E95F1F46D7C700358EDE /* MCSegmentView.m */,
 			);
 			name = TitleView;
+			sourceTree = "<group>";
+		};
+		91F3EA6E1979EEA71AB9428B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3D6C40024F7F7EF2A10BA88 /* Pods-CDPageTitleView.debug.xcconfig */,
+				1E5D8D1DC112C99BBDD58B84 /* Pods-CDPageTitleView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E3E8E2F406835E465CA6295F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43D5A699061430C5E93BEDD8 /* libPods-CDPageTitleView.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,9 +133,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06458CEF1F2F8A8A00A0812C /* Build configuration list for PBXNativeTarget "CDPageTitleView" */;
 			buildPhases = (
+				D2B52F461A34C6779525635D /* [CP] Check Pods Manifest.lock */,
 				06458CD41F2F8A8A00A0812C /* Sources */,
 				06458CD51F2F8A8A00A0812C /* Frameworks */,
 				06458CD61F2F8A8A00A0812C /* Resources */,
+				A5E70206AF8DF5267F6D7459 /* [CP] Embed Pods Frameworks */,
+				EAE27EE7662B8F4DE3D11E0F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,14 +196,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A5E70206AF8DF5267F6D7459 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDPageTitleView/Pods-CDPageTitleView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2B52F461A34C6779525635D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EAE27EE7662B8F4DE3D11E0F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDPageTitleView/Pods-CDPageTitleView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		06458CD41F2F8A8A00A0812C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				06458CE31F2F8A8A00A0812C /* ViewController.m in Sources */,
-				06458CF51F2F8B1600A0812C /* UIView+CDAdd.m in Sources */,
-				06458CF81F2F8B5E00A0812C /* CDPageView.m in Sources */,
+				D3E9E9601F46D7C700358EDE /* MCSegmentView.m in Sources */,
+				D3E9E95A1F4693E000358EDE /* MCSegmentViewVC.m in Sources */,
+				06458CF81F2F8B5E00A0812C /* MCPageView.m in Sources */,
 				06458CE01F2F8A8A00A0812C /* AppDelegate.m in Sources */,
 				06458CDD1F2F8A8A00A0812C /* main.m in Sources */,
 			);
@@ -291,6 +372,7 @@
 		};
 		06458CF01F2F8A8A00A0812C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3D6C40024F7F7EF2A10BA88 /* Pods-CDPageTitleView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 736K45H83W;
@@ -304,6 +386,7 @@
 		};
 		06458CF11F2F8A8A00A0812C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E5D8D1DC112C99BBDD58B84 /* Pods-CDPageTitleView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 736K45H83W;
@@ -334,6 +417,7 @@
 				06458CF11F2F8A8A00A0812C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
